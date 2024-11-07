@@ -1,0 +1,18 @@
+:root {
+  min-height: 100vh;
+  min-height: 100svh;
+  min-width: 100vw;
+  min-width: 100svw;
+  --light-color: #fef8fc;
+  --dark-color: #090107;
+}
+
+.picture-item {
+  width: 50%;
+  height: auto;
+}
+
+#mood_btn {
+  background-color: green;
+  border-radius: 50px;
+}

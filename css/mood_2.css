@@ -1,0 +1,18 @@
+:root {
+  --light-color: #fef8fc;
+  --dark-color: #090107;
+  --primary-color: #e123ae;
+  --secondary-color: #eebc85;
+  --accent-color: #e9e25a;
+}
+
+body {
+  color: var(--light-color);
+  background-color: var(--dark-color);
+}
+
+.pictures {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: center;
+}
