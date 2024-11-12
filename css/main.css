@@ -11,10 +11,16 @@ body {
   margin: 0;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 .picture-item {
-  width: 50%;
+  width: 45%;
   height: auto;
-  border-radius: 50px;
+  border: solid 3px var(--dark-color);
+  border-radius: 25px;
+  margin: 2.5rem 0;
 }
 
 .button-container {
@@ -30,6 +36,19 @@ body {
   background-color: green;
   border-radius: 50px;
   width: 8rem;
-  height: 2rem;
+  height: 3rem;
+  font-size: 1rem;
   margin-bottom: 1.5rem;
+}
+
+footer {
+  color: var(--light-color);
+  background-color: var(--dark-color);
+  margin-top: 2rem;
+}
+
+footer p {
+  max-width: 75%;
+  padding: 2rem 0;
+  margin: 0 auto;
 }
