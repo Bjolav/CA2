@@ -13,18 +13,31 @@ body {
 
 h1 {
   text-align: center;
-  padding: 3rem;
+  padding: 2rem;
+  color: var(--light-color);
+  text-shadow: 2px 2px var(--dark-color);
+  font-size: 3rem;
+  margin: 0;
+}
+
+.button-container {
+  background-color: var(--primary-color);
+  border-color: var(--dark-color);
+}
+
+#mood_btn {
+  background-color: var(--light-color);
 }
 
 .items {
   display: flex;
   flex-direction: column;
+  gap: 50vh;
 }
 
 .pictures {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 50vh;
 }

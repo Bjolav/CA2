@@ -7,12 +7,29 @@
   --dark-color: #090107;
 }
 
+body {
+  margin: 0;
+}
+
 .picture-item {
   width: 50%;
   height: auto;
+  border-radius: 50px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  border: solid;
 }
 
 #mood_btn {
   background-color: green;
   border-radius: 50px;
+  width: 8rem;
+  height: 2rem;
+  margin-bottom: 1.5rem;
 }
